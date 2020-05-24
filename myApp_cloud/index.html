@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- 说是一种引用策略，可以用来防止图片或视频被盗。它的原理是：http 协议中，如果从一个网页跳到另一个网页，http 头字段里面会带个 Referrer。图片 服务器 
+        通过检测 Referrer 是否来自规定域名，来进行防盗链。如果没有设置referrer，那就可以直接绕过防盗链机制，直接使用或盗取。 -->
+    <meta name="referrer" content="no-referrer" />
+    <title>myapp</title>
+    <!-- 百度 -->
+    <script src="https://api.map.baidu.com/api?v=2.0&ak=gHWCpd53ETOocAbpnn3b2ODYTw3SUerD"></script>
+</head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
